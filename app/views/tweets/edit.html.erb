@@ -1,0 +1,17 @@
+<h2>Edit tweet</h2>
+
+<div>
+  <%= form_for @tweet do |f| %>
+    <div>
+      <%= f.label :text %>
+      <%= f.text_field :text %>
+    </div>
+
+    <%= f.submit "Submit Edit" %>
+
+  <% end %>
+
+
+  <%= link_to "Delete tweet", tweet_path, method: :delete, data: {confirm: "Are you sure you want to delete this tweet?"} %> |
+  <%= link_to "Back to feed", tweets_path %>
+</div>

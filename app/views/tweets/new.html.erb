@@ -1,0 +1,13 @@
+<h2>Add new tweet</h2>
+
+<%= form_for @tweet do |f| %>
+  <div>
+    <%= f.label :text %>
+    <%= f.text_field :text %>
+  </div>
+
+  <%= f.submit "Post Tweet" %>
+
+<% end %>
+
+<%= link_to "Back to feed", tweets_path %>
