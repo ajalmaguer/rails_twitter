@@ -1,5 +1,5 @@
 == README
 
-My first Ruby on Rails App.
+First Ruby on Rails App.
 
-[Lab](https://github.com/ga-students/WDI_DTLA_9/blob/master/work/w04/d04/lab_build_first_rails_app/lab_build_first_rails_app.md) for GA WDI_9.
+For GA WDI Lab: https://github.com/ga-students/WDI_DTLA_9/blob/master/work/w04/d04/lab_build_first_rails_app/lab_build_first_rails_app.md
